@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Login – Cot</title>
+      <link rel="shortcut icon" href="favicon.ico" />
+      <link rel="stylesheet" href="./css/login.min.css" />
+   </head>
+   <body>
+      <div class="wrapper">
+         <main class="main">
+            <section class="login">
+               <div class="login__screen login__screen_1 active">
+                  <div class="login__body">
+                     <a href="/cot/" class="login__close"
+                        ><svg
+                           viewBox="0 0 311 311.07733"
+                           xmlns="http://www.w3.org/2000/svg"
+                        >
+                           <path
+                              d="m16.035156 311.078125c-4.097656 0-8.195312-1.558594-11.308594-4.695313-6.25-6.25-6.25-16.382812 0-22.632812l279.0625-279.0625c6.25-6.25 16.382813-6.25 22.632813 0s6.25 16.382812 0 22.636719l-279.058594 279.058593c-3.136719 3.117188-7.234375 4.695313-11.328125 4.695313zm0 0"
+                           />
+                           <path
+                              d="m295.117188 311.078125c-4.097657 0-8.191407-1.558594-11.308594-4.695313l-279.082032-279.058593c-6.25-6.253907-6.25-16.386719 0-22.636719s16.382813-6.25 22.636719 0l279.058594 279.0625c6.25 6.25 6.25 16.382812 0 22.632812-3.136719 3.117188-7.230469 4.695313-11.304687 4.695313zm0 0"
+                           />
+                        </svg>
+                     </a>
+                     <div class="login__logo">
+                        <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="" /></picture>
+                     </div>
+                     <h1 class="login__title title-login title-login_big">
+                        Вход и регистрация
+                     </h1>
+                     <p class="login__desc desc-login">
+                        Размещайте объявления, арендуйте, продавайте и
+                        обменивайте
+                     </p>
+
+                     <a href="#2" class="login__btn btn btn_bold cl"
+                        >Продолжить</a
+                     >
+                  </div>
+               </div>
+
+               <div class="login__screen login__screen_2">
+                  <div class="login__body">
+                     <div class="login__header">
+                        <a href="#1" class="login__prev cl">
+                           <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              viewBox="0 0 512.002 512.002"
+                           >
+                              <path
+                                 d="M388.425,241.951L151.609,5.79c-7.759-7.733-20.321-7.72-28.067,0.04c-7.74,7.759-7.72,20.328,0.04,28.067l222.72,222.105 L123.574,478.106c-7.759,7.74-7.779,20.301-0.04,28.061c3.883,3.89,8.97,5.835,14.057,5.835c5.074,0,10.141-1.932,14.017-5.795 l236.817-236.155c3.737-3.718,5.834-8.778,5.834-14.05S392.156,245.676,388.425,241.951z"
+                              />
+                           </svg>
+                        </a>
+                        <p class="login__title title-login title-login_bold">
+                           Вход и регистрация
+                        </p>
+                     </div>
+
+                     <p class="login__desc desc-login desc-login_small">
+                        Вам будет отправлено SMS с кодом подтверждения
+                     </p>
+
+                     <div class="login__phone input">
+                        <p type="submit" class="input__name">
+                           <span>Номер телефона</span>
+                        </p>
+
+                        <input
+                           class="input__input"
+                           type="tel"
+                           placeholder="7(___) ___-__-__"
+                           oninput="this.value=this.value.replace(/[^\d]/,'')"
+                        />
+                     </div>
+
+                     <a href="#3" class="login__btn btn btn_bold cl"
+                        >Продолжить</a
+                     >
+                  </div>
+               </div>
+               <div class="login__screen login__screen_3">
+                  <div class="login__body">
+                     <div class="login__header">
+                        <p
+                           class="login__title title-login title-login_bold title-login_phone"
+                        >
+                           +7(999) 999-99-99
+                        </p>
+                     </div>
+
+                     <p class="login__desc desc-login desc-login_small">
+                        Код действителен в течение 10 минут
+                     </p>
+
+                     <div class="login__phone input phone">
+                        <button type="submit" class="input__name">
+                           <span>Введите код из SMS</span>
+                        </button>
+
+                        <input
+                           class="input__input phone__input"
+                           type="text"
+                           placeholder="9999"
+                        />
+                     </div>
+
+                     <a href="#4" class="login__btn btn btn_bold cl">Дальше</a>
+                  </div>
+               </div>
+               <div class="login__screen login__screen_4">
+                  <div class="login__header">
+                     <p
+                        class="login__title title-login title-login_bold title-login_phone"
+                     >
+                        Мои данные
+                     </p>
+                  </div>
+
+                  <div class="login__body">
+                     <p class="login__desc desc-login desc-login_small">
+                        Укажите фамилию и загрузите фото
+                     </p>
+
+                     <form class="login__form form-login">
+                        <div class="form-login__cont">
+                           <label class="form-login__file-upload">
+                              <svg
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                 viewBox="0 0 52 52"
+                              >
+                                 <path
+                                    d="M26,0C11.664,0,0,11.663,0,26s11.664,26,26,26s26-11.663,26-26S40.336,0,26,0z M26,50C12.767,50,2,39.233,2,26 S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z"
+                                 />
+                                 <path
+                                    d="M38.5,25H27V14c0-0.553-0.448-1-1-1s-1,0.447-1,1v11H13.5c-0.552,0-1,0.447-1,1s0.448,1,1,1H25v12c0,0.553,0.448,1,1,1 s1-0.447,1-1V27h11.5c0.552,0,1-0.447,1-1S39.052,25,38.5,25z"
+                                 />
+                              </svg>
+                              <input type="file" accept=".png, .jpg" />
+                           </label>
+
+                           <div class="form-login__inputs">
+                              <input
+                                 type="text"
+                                 class="form-login__input"
+                                 placeholder="Имя"
+                                 required
+                              />
+                              <input
+                                 type="text"
+                                 class="form-login__input"
+                                 placeholder="Фамилия"
+                                 required
+                              />
+                           </div>
+                        </div>
+                        <button type="submit" class="login__btn btn btn_bold">
+                           Войти
+                        </button>
+                     </form>
+
+                     <p
+                        class="login__desc desc-login desc-login_bold desc-login_small desc-login_gray desc-login_left desc-login_mt"
+                     >
+                        Фото в формате JPG или PNG не более 25 мб. Другие
+                        пользователи увидят ваше Имя и Фамилию в формате Имя
+                        Фамилия
+                     </p>
+                  </div>
+               </div>
+            </section>
+         </main>
+      </div>
+      <script src="js/login.min.js"></script>
+   </body>
+</html>
